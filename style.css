@@ -1,0 +1,144 @@
+/*...............
+ google Fonts Poppins. 
+ ................*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ /* Common Styles */
+
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+ }
+.font-page-background{
+    background-color: #37009f;
+    top: 0px;
+    margin: 0px;
+    height: 620px;
+}
+
+/*.....................
+        manu-bar 
+ ......................*/                                       
+ .manu-bar{
+     display: flex;
+     justify-content: space-between;
+     width: 1160px;
+     height: 60px;
+     margin-left: 78px;
+     margin-right: 78px;
+     margin-top: 42px;
+
+ }
+ .manu-barItems{
+     display: flex;
+ }
+ .manu-barItems h4{
+     color: white;
+     padding-left: 15px;
+     cursor:pointer;
+ }
+ .manu-bar-button{
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 0px 8px 0px 8px;
+    margin: 15px 120px 15px 0px;    
+ }
+
+         /*--------------------
+        Font-Page styles 
+        --------------------*/
+    section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 90px 0px 0px 100px;
+    }
+  .watch-live{
+    background-color: #E02C6D;
+  }
+  .font-page-text h1{
+      color: white;
+      font-size: 3em;
+  }
+  .font-page-text a{
+      padding: 5px 20px;
+  }
+  .font-page-banner{
+      display: flex;
+      width: 50%;
+  }
+  .banner{
+      width: 140%;
+  }
+  .ball{
+      width: 75px;
+      height: 75px;
+  }
+  /*------------------- 
+  Players Styles
+  ------------------ */
+  .players-info{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-bottom: 180px;
+  }
+  .player{
+      background-color: white;
+      width: 80.33%;
+      height: 470px;
+      margin: 70px 5px 5px 33.33px; 
+      justify-content: space-between;
+      border-radius: 15px;
+      box-shadow: 0.5px 0.5px 8px gray;
+  }
+  .player p,h3{
+      text-align: left;
+      padding: 0px 5px 5px 22px;
+  }
+ .player-img{
+     width: 260px;
+     height: 200px;
+     padding: 15px 0px 5px 30px;
+ }
+
+ /*------------------------
+  Highlights_Page 
+ ------------------------*/
+ .highlights{
+     display: flex;
+     flex-direction: row;
+ }
+ .text{
+     padding-left: 65px;
+ }
+ .text h1{
+     font-size: 2em;
+ }
+ .text a{
+     text-decoration: none;
+     color: white;
+     background-color: #E02C6D;
+     padding: 5px 10px;
+ }
+ .hig-banner img{
+     width: 400px;
+     padding-left: 90px;
+ }
+ /* Excitement Moment */
+ .excitement h1{
+    margin: 80px 10px 10px 85px;
+
+ }
+ .videos{
+    display: flex;
+    /* margin: 50px 10px 20px 85px; */
+ } 
+ .video{
+      padding: 55px;
+ }
+ .video-link{
+     color: white;
+     background-color: #E02C6D;
+     padding: 5px 10px;
+ }
