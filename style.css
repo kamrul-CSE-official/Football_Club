@@ -12,7 +12,7 @@
  }
 .font-page-background{
     background-color: #37009f;
-    top: 0px;
+    margin-top: 0;
     margin: 0px;
     height: 620px;
 }
@@ -27,8 +27,6 @@
      height: 60px;
      margin-left: 78px;
      margin-right: 78px;
-     margin-top: 42px;
-
  }
  .manu-barItems{
      display: flex;
@@ -127,18 +125,43 @@
  }
  /* Excitement Moment */
  .excitement h1{
-    margin: 80px 10px 10px 85px;
-
+    margin: 80px 5px 10px 85px;
  }
  .videos{
     display: flex;
-    /* margin: 50px 10px 20px 85px; */
  } 
  .video{
       padding: 55px;
  }
  .video-link{
-     color: white;
-     background-color: #E02C6D;
-     padding: 5px 10px;
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    width: 10%;
+    height: 25px;
+    padding: 5px 10px;
+    margin: 5px 120px 15px 155px;
  }
+ /* Bifore Footer, */
+ .logo img{
+     width: 30%;
+     display: flex;
+     margin-top: 10%;
+     margin-left: 35%;
+ }
+ /* footer, */
+ footer{
+     margin-left: 490px;
+     margin-top: 30px;
+ }
+ .cont a{
+     color: gray;
+     text-decoration: none;
+     font-size: 200%;
+     cursor: pointer;
+     padding: 20px;
+ }
+  footer span{
+     color: black;
+     margin-top: 15px;
+ } 
