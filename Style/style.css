@@ -6,6 +6,17 @@
 #navber_text{
     color: white;
 }
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+.ball{
+    animation: rotation 3s infinite linear;
+  }
 .font_page_text h1{
     font-size: 4em;
 }
