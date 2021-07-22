@@ -1,0 +1,28 @@
+.bg-fontPage{
+    background-color: #2e2ca0;
+     width: 100%;
+    color: white;
+}
+#navber_text{
+    color: white;
+}
+.font_page_text h1{
+    font-size: 4em;
+}
+.font_page_element{
+    padding-top: 25px;
+}
+.font_page_img{
+    padding-bottom: 45px;
+}
+.logo{
+    text-align: center;
+    padding-top: 155px;
+    padding-bottom: 5px;
+}
+footer{
+    text-align: center;
+    color: rgb(155, 154, 154);
+    padding-bottom: 55px;
+    padding-top: 55px;
+}

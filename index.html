@@ -7,186 +7,234 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon -->
     <link rel="shortcut icon" href="images/banner2.png" type="image/x-icon">
-    <!-- Awesome Font. -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- CSS link  -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/edd79be44f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <title>Football Club</title>
 </head>
 
 <body>
-    <div class="font-page-background">
-        <!-------------------------
-            (1st Page)manu-bar
-        -------------------------->
-        <div class="manu-bar">
-            <div class="manu-barItems">
-                <h4>Home</h4>
-                <h4>Clubs</h4>
-                <h4>World Cup2023</h4>
-                <h4>Upcomming Matches</h4>
-                <h4>Contact</h4>
+    <header class="bg-fontPage">
+        <nav class="container navbar navbar-expand-lg navbar-light pt-5">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="navber_text" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navber_text" href="#">Clubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navber_text" href="#">World Cup 2023</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="navber_text" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-success" type="submit"><i class="fas fa-sign-in-alt"></i>
+                            login</button>
+                    </form>
+                </div>
             </div>
-            <div class="manu-bar-button">
-                <a target="_blank" style="color: white; text-decoration: none;"
-                    href="https://github.com/Kamrul-H-Manzur"><i style="color: white;" class="fas fa-sign-in-alt"></i>
-                    Login</a>
-            </div>
-        </div>
-        <!--------------------------------
-                   (1st Page)
-        font Page Text, Banner & elements
-        ---------------------------------->
-        <section>
-            <div class="font-page-text">
-                <h1>Conmebol <br>Copa America <br>2021</h1>
-                <a target="_blank" style="color: white; text-decoration: none;" class="watch-live"
-                    href="https://github.com/Kamrul-H-Manzur">Watch Live <i class="fas fa-long-arrow-alt-right"></i></a>
-            </div>
-            <div class="font-page-banner">
-                <img class="ball" src="images/banner2.png" alt="">
-                <img class="banner" src="images/banner.png" alt="">
+        </nav>
+        <!-- Font page  -->
+        <section class="container font_page_element">
+            <div class="row pb-5 pt-5">
+                <div class="font_page_text col-lg-6 col-md-6 col-6 pb-5">
+                    <h1>
+                        Conmebol <br> Copa America <br> 2021
+                    </h1>
+                    <button class="btn btn-success">Watch Live <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 pb-5">
+                    <div class="font_page_img d-flex ps-3">
+                        <img src="images/banner2.png" alt="" width="15%" height="15%">
+                        <img src="images/banner.png" alt="" width="70%" height="70%">
+                    </div>
+                </div>
             </div>
         </section>
-    </div>
-    <!---------------- 
-        Players 
-    ------------------>
-    <main class="players">
-        <div class="players-info">
-            <div class="player">
-                <img class="player-img" src="images/players/player-1.png" alt="">
-                <h3>Neymar Jr</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class="player">
-                <img class="player-img" src="images/players/player-2.png" alt="">
-                <h3>Lionel Messi</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-3.png" alt="">
-                <h3>Cristiano Ronaldo</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-4.png" alt="">
-                <h3>Paulo Dybala</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-5.png" alt="">
-                <h3>Mesut Ozil</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-6.png" alt="">
-                <h3>Mauro Icardi</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-7.png" alt="">
-                <h3>Di Maria</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-8.png" alt="">
-                <h3>Kylian Mbappé</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-9.png" alt="">
-                <h3>Mohamed Salah</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-10.png" alt="">
-                <h3>Harry Kane</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-11.png" alt="">
-                <h3>Kevin De Bruyne</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
-            <div class=" player">
-                <img class="player-img" src="images/players/player-12.png" alt="">
-                <h3>Philippe Coutinho</h3>
-                <p>A football player or footballer is a sportsperson who plays one of the different types of football.
-                    The main types of football are association football, American football.</p>
-            </div>
 
-        </div>
+    </header>
+    <main>
+        <!-- players  -->
+        <section class="players container allPlayers">
+            <div class="row ps-3 justify-content-md-center justify-content-lg-center justify-content-center">
+                <div class="col-lg-4 col-md-6 col-12 pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Neymar Jr</h5>
+                            <p class="card-text">Neymar da Silva Santos Júnior, known as Neymar, is a Brazilian
+                                professional
+                                footballer who plays as a
+                                forward for Ligue 1 club Paris Saint-Germain and the Brazil national team. He is widely
+                                regarded as
+                                one of the best players in the world</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-2.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lionel Messi</h5>
+                            <p class="card-text">Lionel Andrés Messi is an Argentine professional footballer who plays
+                                for and captains the Argentina national team</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-4.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paulo Dybala</h5>
+                            <p class="card-text">Paulo Exequiel Dybala (born 15 November 1993) is an Argentine
+                                professional footballer who plays as a forward for Serie A club Juventus and the
+                                Argentina </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-3.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cristiano Ronaldo</h5>
+                            <p class="card-text">Cristiano Ronaldo dos Santos Aveiro GOIH ComM is a Portuguese
+                                professional footballer who plays as a forward for Serie A club Juventus and captains
+                                the Portugal national team. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-5.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mesut Ozil</h5>
+                            <p class="card-text">Mesut Özil is a German professional footballer who plays as an
+                                attacking midfielder for Süper Lig club Fenerbahçe. Nicknamed "The Assist King", Özil is
+                                known for his technical skills, creativity, agility, and finesse. He has also played as
+                                a wide midfielder in his career</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-6.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mauro Icardi</h5>
+                            <p class="card-text">Mauro Emanuel Icardi is an Argentine professional footballer who plays
+                                as a striker for Ligue 1 club Paris Saint-Germain and the Argentina national team.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-7.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Di Maria</h5>
+                            <p class="card-text">Ángel Fabián Di María is an Argentine professional footballer who plays
+                                for Ligue 1 club Paris Saint-Germain and the Argentina national team. He can play as
+                                either a winger or attacking midfielder.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-8.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kylian Mbappé</h5>
+                            <p class="card-text">Kylian Mbappé Lottin is a French professional footballer who plays as a
+                                forward for Ligue 1 club Paris Saint-Germain and the France national team. Mbappé began
+                                his senior career with Ligue 1 club Monaco, making his professional debut in 2015, aged
+                                16.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-9.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mohamed Salah</h5>
+                            <p class="card-text">Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional
+                                footballer who plays as a forward for Premier League club Liverpool and captains the
+                                Egypt national team. Considered one of the best players in the world, he is known for
+                                his finishing, dribbling, and speed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-10.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Harry Kane</h5>
+                            <p class="card-text">Harry Edward Kane MBE is an English professional footballer who plays
+                                as a striker for Premier League club Tottenham Hotspur and captains the England national
+                                team. Regarded as one of the best strikers in the world, Kane is known for his prolific
+                                goalscoring record and ability to link play. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-11.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kevin De Bruyne</h5>
+                            <p class="card-text">Kevin De Bruyne is a Belgian professional footballer who plays as a
+                                midfielder for Premier League club Manchester City, where he is vice-captain, and the
+                                Belgium national team.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12  player pt-5">
+                    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;height: 90%;">
+                        <img src="images/players/player-12.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Philippe Coutinho</h5>
+                            <p class="card-text">Philippe Coutinho Correia is a Brazilian professional footballer who
+                                plays as an attacking midfielder or winger for Spanish club Barcelona and the Brazil
+                                national team. He is known for his combination of vision, passing, dribbling and ability
+                                to conjure curving long-range strikes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BeforeFooter -->
+        <section class="container beforeFooter">
+            <div class="row pt-5 pb-5">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <h1 class="ps-5">All Highlights <br> Copa America 2021</h1>
+                    <p class="ps-5">Amet minim mollit non deserunt ullamco est sit <br>
+                        aliqua dolor do amet sint. Velit officia consequat <br>
+                        duis enim velit mollit. Exercitation veniam <br>
+                        consequat sunt nostrud amet <br><br><button class="btn btn-success">Watch Now <i
+                                class="fas fa-arrow-right"></i></button></p>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div><img src="images/match.png" alt="" width="70%" height="70%"></div>
+                </div>
+            </div>
+            <!-- logo -->
+            <div class="logo">
+                <img src="images/Logo.png" width="25%" height="25%" alt="">
+            </div>
+        </section>
     </main>
-    <!-------------------
-         Highlights
-    ---------------------->
-    <section class="highlights">
-        <div class="text">
-            <h1><strong>All Highlights<br>Copa America 2021</strong></h1>
-            <p>Amet minim mollit non deserunt ullamco est sit <br>
-                aliqua dolor do amet sint. Velit officia consequat <br>
-                duis enim velit mollit. Exercitation veniam <br>
-                consequat sunt nostrud amet.</p>
-            <a target="_blank" href="https://github.com/Kamrul-H-Manzur">Watch Now <i style="color: white;"
-                    class="fas fa-sign-in-alt"></i></a>
-
-        </div>
-        <div class="hig-banner">
-            <img src="images/match.png" alt="">
-        </div>
-    </section>
-    <!-- Some Excitement Moment -->
-    <section class="excitement">
-        <h2>Some Excitement Moments</h2><br>
-        <div class="videos">
-            <div class="video">
-                <iframe width="360" height="215" src="https://www.youtube.com/embed/ZHi6_qetibA"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <h5>Beautiful Moments in Football</h5>
-            </div>
-            <div class="video">
-                <iframe width="360" height="215" src="https://www.youtube.com/embed/WtFZ1Ts7NDQ"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <h5>Most Emotional & Beautiful Moments in Football</h5>
-            </div>
-        </div>
-    </section>
-    <div class="video-link">
-        <a target="_blank" style="color: white; text-decoration: none;"
-            href="https://www.youtube.com/c/TARAFTARKANALIHD/videos">More videos <i style="color: white;"
-                class="fas fa-sign-in-alt"></i></a>
-    </div>
-    <!--...........................
-         Before Footer..,
-    ............................-->
-    <div class="logo">
-        <img src="images/Logo.png" alt="">
-    </div>
-    <!-- Footer. -->
-    <footer>
-        <div class="cont">
-            <a target="_blanck" href="https://web.programming-hero.com/"><i class="fab fa-instagram-square"></i></a>
-            <a target="_Blanck" href="https://web.programming-hero.com/"><i class="fab fa-dribbble-square"></i></a>
-            <a target="_blanck" href="https://web.programming-hero.com/"><i class="fab fa-twitter"></i></a>
-            <a target="_blanck" href="https://web.programming-hero.com/"><i class="fab fa-youtube"></i></a>
-        </div>
-        <br><span style="padding-left: 15px;">Copyright © 2022 Football</span>
+    <!-- footer  -->
+    <footer class="beforeFooter">
+        <p><i class="fab fa-facebook"></i> <i class="fab fa-instagram-square"></i> <i class="fab fa-youtube"></i> <i
+                class="fab fa-twitter-square"></i><br>Copyright © 2022 Football</p>
     </footer>
+
+
+    <!-- JS script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
